@@ -19,12 +19,16 @@ applied 4 unsupervised learning algorithms to the Wholesale Customers dataset to
 **4 Algorithms Applied**
 
 | Algorithm | Silhouette ↑ | Davies-Bouldin ↓ | Clusters |
+
 | K-Means (K=5) | 0.5877 | — | 5 |
+
 | PCA + K-Means (K=4) | 0.5275 | — | 4 |
+
 | Hierarchical — Ward | — | — | 5 |
+
 | DBSCAN | — | — | varies |
 
-**best model:** K-Means (K=5) — highest Silhouette score at 0.5877. GridSearchCV picked K=4 with Silhouette=0.5275 but the manual baseline actually won — a good reminder that automation doesn't always beat informed decisions.
+**best model:** K-Means (K=5), highest Silhouette score at 0.5877. GridSearchCV picked K=4 with Silhouette=0.5275 but the manual baseline actually won, a good reminder that automation doesn't always beat informed decisions.
 
 **5 Key Findings**
 1. K=5 was optimal across both Elbow plot and Silhouette analysis — the two methods agreed, which gave strong confidence in the choice
