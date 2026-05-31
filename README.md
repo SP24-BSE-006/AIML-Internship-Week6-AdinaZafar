@@ -1,11 +1,16 @@
 # Week 6 — Unsupervised Learning & Model Tuning
+
 **Student:** Adina Zafar | SP24-BSE-006
+
 **Internship:** AI/ML Internship Program — Week 6 of 8
+
 **Instructor:** Zain Ul Abideen
 
 **Dataset**
 Wholesale Customers — UCI Machine Learning Repository
+
 Source: UCI | 440 rows, 6 features | No target label (Unsupervised)
+
 Features: Fresh, Milk, Grocery, Frozen, Detergents_Paper, Delicassen
 
 **What I did this week**
